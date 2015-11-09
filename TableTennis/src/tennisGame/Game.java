@@ -115,7 +115,7 @@ public class Game extends BaseGame {
 			placeBallOnPaddleOne();
 		} else if (PlayerTwoScore >= 11 && PlayerTwoScore - PlayerOneScore >1) {
 			resetResult();
-			GameOver = "Player One has Won!\nPress 'Space' to start New Game and release the ball.";
+			GameOver = "Player Two has Won!\nPress 'Space' to start New Game and release the ball.";
 			placeBallOnPaddleTwo();
 		}
 
